@@ -2,7 +2,7 @@ body {
 
     box-sizing: border-box;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-
+scroll-behavior: smooth;
 }
 
 .page {
@@ -13,7 +13,7 @@ body {
 }
 
 .page__grey {
-    background: #F6F2F2;
+    background: var(--color-base);
 }
 
 .section {
@@ -41,7 +41,7 @@ body {
 }
 
 .header__line {
-    border: 1px solid #FF2D2D;
+    border: 1px solid var(--color-secondary);
     width: 134px;
     max-height: 6px;
 
@@ -51,4 +51,29 @@ body {
     
     font-size: 16px;
     line-height: 28px;
+}
+
+@media screen and (max-width: 550px) {
+
+    .intro__link{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 340px;
+        max-height: 320px;
+    }
+.intro__content{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 340px;
+
+}
+  
+
+.intro__heading {
+
+font-size: 42px;
+max-width: 340px;
+
+}
+
 }

@@ -35,7 +35,7 @@
 
 .products__link {
 
-    color: #000;
+    color: var(--color-primary);
     text-decoration: none;
     margin-right: 56px;
     font-weight: 700;
@@ -47,7 +47,7 @@ text-transform: uppercase;
 
 .products__link:hover{
     
-color: #FF2D2D;
+color: var(--color-secondary);
 
 
 }
@@ -71,4 +71,18 @@ display: flex;
 align-items: flex-start;
 justify-content: space-between;
 flex-wrap: wrap;
+}
+
+@media screen and (max-width: 560px) {
+
+    .products__filter {
+   
+        display: flex;
+        flex-direction: column;
+
+    
+    
+    }
+    
+
 }

@@ -3,7 +3,7 @@
 .services {
     padding-top: 108px;
     padding-bottom: 52px;
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--color-base);
 }
 
 .services__lead {
@@ -29,14 +29,14 @@
 
     font-size: 18px;
     font-weight: 700;
-    border: 2px solid #FF0000;
-    color: #FF2D2D;
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
     background-color: transparent;
 }
 
 .action-button_white:hover{
-background-color: #FF2D2D;
-color: #ECECEC;
+background-color: var(--color-secondary);
+color: var(--color-base);
 transition: 0.5s ;
 
 }

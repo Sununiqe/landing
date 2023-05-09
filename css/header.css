@@ -9,8 +9,8 @@
     max-width: 1250px;
     min-height: 90px;
     margin: 16px auto;
-    background: #000000;
-    background: oklch(0% 0 0 / 80%);
+    background: var(--color-primary);
+    
 
 }
 
@@ -42,7 +42,7 @@
 }
 
 .menu__item:hover {
-    background-color: #FF3F40;
+    background-color: var(--colo-secondary);
 
 }
 
@@ -51,10 +51,124 @@
     display: flex;
     align-items: center;
     padding: 0 30px;
-    color: #e0e0e0;
+    color: var(--color-base);
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+
+}
+
+
+/* popup-menu */
+
+.popup-menu {
+
+    visibility: visible;
+    position: relative;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.popup-menu__list {
+
+    visibility: visible;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    z-index: 1;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-primary);
+    transition: visibility, transform 2s, 1s ease-in-out;
+}
+
+.popup-menu__btn {
+
+    display: none;
+    z-index: 1;
+
+    padding: 0;
+    min-width: 120px;
+    height: 40px;
+    background-image: url(../img/burger_icon.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .popup-menu__list {
+
+        visibility: hidden;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+
+    .menu {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .popup-menu__btn {
+        display: block;
+    }
+
+
+    .hide-popup {
+        transform: translateY(-50px);
+        z-index: -1;
+        visibility: hidden;
+    }
+   
+    .popup-menu__item {
+
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        min-height: 70px;
+        
+    }
+    .popup-menu__item:hover {
+        background-color: var(--colo-secondary);
+    }
+
+    .popup-menu__link{
+        display: flex;
+        align-items: center;
+        padding: 0 30px;
+        color: #e0e0e0;
+        text-decoration: none;
+        transform: uppercase;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+
+
+
+
+
 
 }

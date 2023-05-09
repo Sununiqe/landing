@@ -1,0 +1,174 @@
+.feedback-contacts{
+    display: flex;
+    justify-content: center;
+   
+  
+    align-items: flex-end;
+    padding-top: 92px;
+    padding-bottom: 110px;    
+}
+
+.feedback-contacts::after{
+height: 100%;
+background-color: oklch(0% 0 0 / 80%);
+
+}
+
+.feedback__box-left{
+
+}
+
+.feedback__box-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    min-width: 580px;
+    min-height: 786px;
+    background: oklch(0% 0 0 / 80%);
+
+}
+
+
+.feedback{
+    margin-top: 36px;
+
+}
+.feedback__heading{
+
+}
+.feedback__header{
+    margin-bottom: 36px;
+
+}
+.section__heading{
+
+}
+.feedback__heading-text{
+    max-width: 470px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    
+
+}
+.feedback__line{
+    margin-left: 0;
+    margin-bottom: 42px;
+
+}
+.feedback__body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 700px;
+    
+    margin-right: 106px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.feedback__form{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+}
+.feedback__input{
+    background: #F6F2F2;
+    padding: 0 54px 0 54px;
+    border: none;
+   border-radius: 6px;
+}
+
+.feedback__name{
+display: flex;
+align-items: center;
+width: 300px;
+height: 68px;
+padding: 12px;
+}
+
+.feedback__mail{
+
+    display: flex;
+align-items: center;
+width: 300px;
+height: 68px;
+padding: 12px;
+}
+
+
+.feedback__button {
+
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 700px;
+    min-height: 78px;
+
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-base);
+    background-color: var(--color-secondary);
+    text-transform: uppercase;
+}
+
+.feedback__button:hover {
+    color: var(--color-primary);
+    background-color: hsl(0, 77%, 53%);
+    transition: 1.9s;
+
+}
+
+
+.feedback__message{
+
+  resize: none; 
+  width: 100%;
+  max-width: 734px;
+  height: 252px;
+  padding: 22px;
+  margin: 44px 0 44px 0;
+  
+}
+
+.contacts__heading{
+    color: var(--color-base);
+}
+
+.contacts__address{
+
+}
+
+.contacts__line{
+color: var(--color-base);
+
+}
+
+@media screen and ( max-width: 560px)
+{
+.feedback-contacts{
+        display: block;
+}
+
+.feedback__button {
+
+    min-width: 200px;
+    margin-bottom: 35px;
+}
+
+ 
+.feedback__box-left{
+margin-left: 35px;
+}
+
+.section {
+    margin-left: 15px;
+}
+
+}

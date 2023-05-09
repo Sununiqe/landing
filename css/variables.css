@@ -1,0 +1,7 @@
+:root {
+
+
+    --color-primary: oklch(0% 0 0 / 80%);
+    --color-secondary: #FF2D2D;
+    --color-base: #F6F2F2;
+}

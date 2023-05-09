@@ -111,7 +111,7 @@
     text-decoration: none;
     margin-right: 18px;
     font-style: italic;
-    color: #000;
+    color: var(--color-primary);
 }
 
 
@@ -147,7 +147,7 @@ bottom: 0;
 height: 38px;
 width: 100%;
 text-align: center;
-background-color: #000;
+background-color:var(--color-primary);
 opacity: 0.5;
 
 }
@@ -163,3 +163,22 @@ height: 218px;
 object-fit: cover;
 
 }
+
+@media screen and  (max-width: 820px)
+{
+    .team__members {
+
+display: flex;
+
+    }
+
+}
+@media screen and  (max-width: 1236px)
+{
+    .team__members {
+
+display: flex;
+
+    }
+
+}    

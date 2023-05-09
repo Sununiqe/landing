@@ -56,12 +56,12 @@
 .action-button_red {
     font-size: 18px;
     font-weight: 700;
-    color: #ffffff;
-    background-color: #FF2D2D;
+    color: var(--color-base);
+    background-color:var(--color-secondary);
 }
 
 .action-button_red:hover{
-    color: #000000;
+    color: var(--color-primary);
     background-color:  hsl(0, 77%, 53%);
     transition: 0.9s;
 
@@ -75,7 +75,44 @@
 .intro__image {
 
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
-    width: 554px;
-    height: 360px;
+    max-width: 554px;
+    max-height: 360px;
 
 }
+
+@media screen and (max-width: 560px) {
+
+    .intro__image {
+
+        box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+        max-width: 454px;
+        max-height: 260px;
+    
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .intro__link{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 340px;
+        max-height: 320px;
+    }
+.intro__content{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 340px;
+
+}
+  
+
+.intro__heading {
+
+font-size: 42px;
+max-width: 340px;
+
+}
+
+}   

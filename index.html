@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;0,1,300;1,400&display=swap"
         rel="stylesheet">
-
+    <script async src="js.js"></script>
 </head>
 
 <body class="page">
@@ -33,6 +33,27 @@
                         <a class="menu__link" href="#contacts">Contacts</a>
                     </li>
                 </ul>
+                
+                <div class="popup-menu">
+                    <button class="popup-menu__btn"></button>
+                    <ul class="popup-menu__list hide-popup">
+                        <li class="popup-menu__item">
+                            <a href="#" class="popup-menu__link">Home</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="#portfolio" class="popup-menu__link">Portfolio</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="#aboutus" class="popup-menu__link">About us</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="#contacts" class="popup-menu__link">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
             </nav>
         </header>
     </div>
@@ -53,7 +74,7 @@
             </section>
     </main>
         </div>
-        <section class="section services">
+        <section class="section services" >
             <div class="services__lead">
                 <h2 class="services__heading section__heading">do you know we can provide for you ?</h2>
                 <p class="text services__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
@@ -85,7 +106,7 @@
                 </section>
             </div>
         </section>
-        <section class="section feature">
+        <section class="section feature" id="portfolio">
             <div class="feature__header">
                 <h2 class="section__heading" id="Portfolio">feature products</h2>
                 <p class="text feature__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
@@ -119,7 +140,7 @@
                 <img src="./img/work-8.jpg" alt="макет" class="product">
             </div>
         </section>
-        <section class="section team">
+        <section class="section team" id="aboutus">
             <div class="team__header">
                 <h2 class="team__heading section__heading" id="About">Meet our team</h2>
                 <p class="text team__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
@@ -145,15 +166,15 @@
                         </div>
                         <div class="member">
                             <h3 class="member__name">sokina jue</h3>
-                            <img src="./img/photo/chihuahua.png" alt="Фото сотрудника" class="member__photo">
+                            <img src="./img/photo/photo1.jpg" alt="Фото сотрудника" class="member__photo">
                         </div>
                         <div class="member">
                             <h3 class="member__name">sokina jue</h3>
-                            <img src="./img/photo/chihuahua.png" alt="Фото сотрудника" class="member__photo">
+                            <img src="./img/photo/photo1.jpg" alt="Фото сотрудника" class="member__photo">
                         </div>
                         <div class="member">
                             <h3 class="member__name">sokina jue</h3>
-                            <img src="./img/photo/chihuahua.png" alt="Фото сотрудника" class="member__photo">
+                            <img src="./img/photo/photo1.jpg" alt="Фото сотрудника" class="member__photo">
                         </div>
                     </section>
                 </div>
@@ -169,6 +190,55 @@
                 <button class="subscribe__button">Subscribe</button>
             </form>
         </section>
+        <div class="feedback-contacts" id="contacts" >
+            <div class="feedback__box-left">            
+                <section class="feedback">
+                <div class="feedback__heading">
+                    <h2 class="feedback__header section__heading ">get in touch</h2>
+                    <p class="feedback__heading-text text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+                    <hr class="header__line feedback__line">
+                </div>
+                <section class="feedback__body section">
+                    <form action="" class="feedback__form">
+                        <input type="text" name="name" placeholder="name" required class="feedback__input feedback__name">
+                        <input type="text" name="mail" placeholder="mail" required class="feedback__input feedback__mail">
+                        <textarea name="message" cols="30" rows="5" placeholder="type your message" class="feedback__input feedback__message"></textarea>
+                        <button class="feedback__button text "  type="submit">Send message</button>
+                    </form>
+                </section>
+            </div>
+            <div class="feedback__box-right">
+                <section class="contacts">
+                    <h2 class="contacts__heading section__heading">contact info</h2>
+                    <address class="contacts__address text">
+                        <p class="contacts__line">Akjhgrkgr sdghdrg dnfd 34</p>
+                        <p class="contacts__line">www.aegrggr.gmail@com</p>
+                        <p class="contacts__line">576868768768</p>
+                    </address>
+                </section>
+            </div>         
+        </div>   
+        <footer class="footer">
+            <div class="footer__content text">
+                <p>Copyright @Jjgrg 2023, all rights reserved</p>
+                <div class="footer__socials">
+                    <a href="" class="footer__socials-links">
+                        <img src="./img/Facebook.svg" alt="">
+                    </a>
+                    <a href="" class="footer__socials-links">
+                        <img src="./img/Google.svg" alt="">
+                    </a>
+                    <a href="" class="footer__socials-links">
+                        <img src="./img/Twitter.svg">
+                    </a>
+                    <a href="" class="footer__socials-links">
+                        <img src="./img/Linked.svg">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+
    
 
 
