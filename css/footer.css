@@ -38,11 +38,11 @@
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 350px) {
 
 .footer{
     
-min-width: 550px;
+min-width: 350px;
     
     }
 

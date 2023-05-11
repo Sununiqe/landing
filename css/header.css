@@ -42,7 +42,7 @@
 }
 
 .menu__item:hover {
-    background-color: var(--colo-secondary);
+    background-color: var(--color-secondary);
 
 }
 
@@ -151,7 +151,7 @@
         
     }
     .popup-menu__item:hover {
-        background-color: var(--colo-secondary);
+        background-color: var(--color-secondary);
     }
 
     .popup-menu__link{
@@ -165,10 +165,13 @@
         font-size: 14px;
     }
 
-
-
-
-
-
-
 }
+
+@media screen and (min-width: 350px) {
+
+
+
+ 
+    }
+
+   

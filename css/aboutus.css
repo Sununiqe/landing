@@ -42,7 +42,7 @@
 .team__selected-photo {
 
     flex-shrink: 0;
-    width: 380px;
+    width: 350px;
     height: 462px;
     
     object-fit: cover;

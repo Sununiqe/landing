@@ -22,10 +22,16 @@
 
     margin: 0;
     font-size: 60px;
-    line-height: 72px;
-    font-weight: 900;
+    line-height: 70px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+       
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 2.5px;
+
+    line-height: 120%;
+    
+
 }
 
 .intro__text {
@@ -80,6 +86,14 @@
 
 }
 
+.products__link{
+    font-style: italic;
+}
+
+.service__heding{
+    font-style: italic;
+}
+
 @media screen and (max-width: 560px) {
 
     .intro__image {
@@ -116,3 +130,93 @@ max-width: 340px;
 }
 
 }   
+
+
+@media screen and (width: 350px) {
+
+
+
+
+    
+.page{
+  min-width: 350px; 
+}
+.header{
+    min-width: 350px;
+}
+.feature {
+    padding-left: 6px;
+} 
+
+.product__item {
+    margin-bottom: 6px;
+}
+
+.intro__section{
+    width: 350px;
+}
+.intro__heading{
+    width: 50%;
+    font-size: 30px;
+}
+.team__heading{
+    font-size: 30px;
+}
+
+.team{
+    width: 340px;
+}
+
+
+.team__text {
+width: 70%;
+}
+
+.team__selected-photo{
+    width: 320px;
+}
+.team__members{
+    width: 70%;
+}
+
+.members{
+
+    justify-content: center;
+}
+.feedback__box-left{
+    margin-left: 0px;
+    }
+
+.subscibe__input{
+   width: 90%;;
+}
+
+.section__heading{
+    font-size: 28px;
+}
+
+.feedback__heading-text{
+    width: 50%;
+}
+.feedback__message{
+max-width: 340px;
+}
+
+.feedback__box-right{
+    max-width: 350px;
+}
+
+.footer__socials {
+margin: auto;
+}
+
+.feedback__body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 350px;
+}
+
+}
+
+
